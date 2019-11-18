@@ -85,7 +85,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #2d2d2d 100%),
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #324650 100%),
     url("../img/bg-masthead1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -142,25 +142,25 @@
 }
 
 .btn-primary {
-  background-color: #adc847;
+  background-color: #72933a;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #adc847;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #adc847;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #adc847 !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #2d2d2d 0%, #48626f 75%, #707f8b 100%);
+  background: linear-gradient(to bottom, #324650 0%, #48626f 75%, #707f8b 100%);
 }
 
 .about-section p {
@@ -301,4 +301,21 @@ a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.grass {
+  height: 11rem;
+  background-image: url("/img/grass_bottom.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+}
+
+.card-custom {
+}
+
+.card-custom:hover {
+  -webkit-box-shadow: 1px 3px 19px 1px rgba(143, 143, 143, 1);
+  -moz-box-shadow: 1px 3px 19px 1px rgba(143, 143, 143, 1);
+  box-shadow: 1px 3px 19px 1px rgba(143, 143, 143, 1);
 }
